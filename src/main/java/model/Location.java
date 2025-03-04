@@ -49,7 +49,7 @@ import jakarta.persistence.*;
 
 	@Override
 	public String toString() {
-		return "Location{" + "id=" + id + ", type=" + type + ", name='" + name + '\'' + ", description='" + description
+		return "Location{"	+ "id=" + id + ", type=" + type + ", name='" + name + '\'' + ", description='" + description
 				+ '\'' + '}';
 	}
 
