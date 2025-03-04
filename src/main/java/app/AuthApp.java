@@ -20,21 +20,21 @@ public class AuthApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         this.primaryStage = primaryStage;
-        
+
         // Load SignIn
-        FXMLLoader signInLoader = new FXMLLoader(getClass().getResource("signin.fxml"));
+        FXMLLoader signInLoader = new FXMLLoader(getClass().getResource("/fxml/auth/signin.fxml"));
         Parent signInRoot = signInLoader.load();
         SignInController signInController = signInLoader.getController();
         signInController.setMainApp(this);
         signInScene = new Scene(signInRoot);
-        
+
         // Load SignUp
-        FXMLLoader signUpLoader = new FXMLLoader(getClass().getResource("signup.fxml"));
+        FXMLLoader signUpLoader = new FXMLLoader(getClass().getResource("/fxml/auth/signup.fxml"));
         Parent signUpRoot = signUpLoader.load();
         SignUpController signUpController = signUpLoader.getController();
         signUpController.setMainApp(this);
         signUpScene = new Scene(signUpRoot);
-        
+
         // Show initial scene
         showSignInScene();
         primaryStage.setTitle("Authentication System");
