@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Built-By: Beta
 Build-Jdk: 23.0.2
-Main-Class: isca.di.sll.maven.gva_salud.MainApp
+Main-Class: app.AuthApp
 Created-By: Maven Integration for Eclipse
 

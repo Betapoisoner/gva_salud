@@ -1,0 +1,6 @@
+<VBox spacing="20" xmlns="http://javafx.com/javafx/11.0.1" 
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.main.DashboardController">
+    <Button fx:id="btnScheduleAppointment" text="Schedule New Appointment" />
+    <Button fx:id="btnViewAppointments" text="View My Appointments" />
+</VBox>

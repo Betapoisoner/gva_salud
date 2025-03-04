@@ -1,0 +1,4 @@
+<GridPane xmlns:fx="http://javafx.com/fxml/1" 
+          fx:controller="controller.main.ScheduleAppointmentController">
+    <!-- Form elements here -->
+</GridPane>
