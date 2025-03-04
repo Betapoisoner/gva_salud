@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Beta
+Build-Jdk: 23.0.2
+Main-Class: isca.di.sll.maven.gva_salud.MainApp
+Created-By: Maven Integration for Eclipse
+
